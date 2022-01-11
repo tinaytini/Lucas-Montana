@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <h2 class="name">Lucas Montana</h2>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main-info">
+                    <img src="/images/desctop-img/desctop-img.png" alt="" class="main__img">
+                    <img src="/images/tab-img/tablet .png" alt="" class="main__img-tab">
+                    <img src="/images/phone-img/portfolio-phone.png" alt="" class="main__img-phone">
+                    <div class="main__desc">
+                        <h3 class="title">Hey. I'm Lucas <br> And I'm a professional pgotographer</h3>
+                        <span class="line"></span>
+                        <h4 class="subtitle">Curabitur blanit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. </h4>
+                        <p class="desc__info">Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligulas semper. Cum sociis natoque penatibus et magnis maecenas. Donec ullamcorper nulla non metus auctor fringilla. </p>
+                        <button id="contact-btn" class="contact">Contact me</button>
+                    </div>
+                </div>
+                <!-- contact modal -->
+                <div class="modal-wrapper" id="modal">
+                    <div class="modal-window" >
+                        <div class="modal-container">
+                            <h3 class="contact__title">Contact me</h3>
+                            <p class="contact__desc">Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                            <form action="index2.html" class="input-form" id="form">
+                                <input type="text" class="input__name" placeholder="Your name..." name="Uname" required>
+                                <input type="text" class="input__email" placeholder="Your email..." name="Uemail" required>
+                                <input type="text" class="textarea" placeholder="Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Fu blandit tempus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vollis  commodo luctus. Curabitur blandit. Morbi leo risus, porta ac consectetur ac, at eros." name="textarea" required>
+                                <button class="submit">Send Message</button>
+                                <button class="close" id="close-modal">Close</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="portfolio">
+                    <h3 class="portfolio__title">Portfolio</h3>
+                    <p class="portfolio__desc">Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                    <ul class="portfolio-list">
+                        <li class="portfolio__item"><img src="/images/desctop-img/portfolio-1.png" alt="#" class="portfolio__img" id="portfolio-img"></li>
+                        <li class="portfolio__item"><img src="/images/desctop-img/portfolio-2.png" alt="#" class="portfolio__img"></li>
+                        <li class="portfolio__item"><img src="/images/desctop-img/portfolio-4.png" alt="#" class="portfolio__img"></li>
+                        <li class="portfolio__item"><img src="/images/desctop-img/portfolio-5.png" alt="#" class="portfolio__img"></li>
+                        <li class="portfolio__item"><img src="/images/desctop-img/portfolio-6.png" alt="#" class="portfolio__img"></li>
+                        <li class="portfolio__item"><img src="/images/desctop-img/portfolio-7.png" alt="#" class="portfolio__img"></li>
+                        <li class="portfolio__item"><img src="/images/desctop-img/portfolio-8.png" alt="#" class="portfolio__img"></li>
+                        <li class="portfolio__item"><img src="/images/desctop-img/portfolio-9.png" alt="#" class="portfolio__img"></li>
+                    </ul>
+                    <ul class="portfolio-list-tab">
+                        <li class="portfolio__item-tab"><img src="/images/tab-img/porfolio-tab-1.png" alt="#" class="portfolio__img-tab"></li>
+                        <li class="portfolio__item-tab"><img src="/images/tab-img/porfolio-tab-2.png" alt="#" class="portfolio__img-tab"></li>
+                        <li class="portfolio__item-tab"><img src="/images/tab-img/porfolio-tab-3.png" alt="#" class="portfolio__img-tab"></li>
+                        <li class="portfolio__item-tab"><img src="/images/tab-img/porfolio-tab-4.png" alt="#" class="portfolio__img-tab"></li>
+                        <li class="portfolio__item-tab"><img src="/images/tab-img/porfolio-tab-5.png" alt="#" class="portfolio__img-tab"></li>
+                        <li class="portfolio__item-tab"><img src="/images/tab-img/porfolio-tab-7.png" alt="#" class="portfolio__img-tab"></li>
+                        <li class="portfolio__item-tab"><img src="/images/tab-img/porfolio-tab-7.png" alt="#" class="portfolio__img-tab"></li>
+                        <li class="portfolio__item-tab"><img src="/images/tab-img/porfolio-tab-8.png" alt="#" class="portfolio__img-tab"></li>
+                    </ul>
+                    <ul class="portfolio-list-phone">
+                        <li class="portfolio__item-tab"><img src="/images/phone-img/portfolio__phone-1.png" alt="#" class="portfolio__img-phone"></li>
+                        <li class="portfolio__item-tab"><img src="/images/phone-img/portfolio__phone-2.png" alt="#" class="portfolio__img-phone"></li>
+                        <li class="portfolio__item-tab"><img src="/images/phone-img/portfolio__phone-3.png" alt="#" class="portfolio__img-phone"></li>
+                        <li class="portfolio__item-tab"><img src="/images/phone-img/portfolio__phone-4.png" alt="#" class="portfolio__img-phone"></li>
+                        <li class="portfolio__item-tab"><img src="/images/phone-img/portfolio__phone-5.png" alt="#" class="portfolio__img-phone"></li>
+                        <li class="portfolio__item-tab"><img src="/images/phone-img/portfolio__phone-6.png" alt="#" class="portfolio__img-phone"></li>
+                        <li class="portfolio__item-tab"><img src="/images/phone-img/portfolio__phone-7.png" alt="#" class="portfolio__img-phone"></li>
+                        <li class="portfolio__item-tab"><img src="/images/phone-img/portfolio__phone-8.png" alt="#" class="portfolio__img-phone"></li>
+          </div>
+          <div class="img-wrapper">
+             <div class="img-container">
+                <button class="close-img-modal" id="close-img">Close</button>
+                <img src="" alt="#" class="img-modal">
+             </div>
+          </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-up">
+                <img src="/images/desctop-img/desctop-img.png" alt="Lucas Montana" class="footer__img">
+                <div class="footer-info">
+                    <h3 class="footer__name">Lucas Montana</h3>
+                    <div class="phone__num">+4 768 25 25 255</div>
+                    <div class="country">Poland, Warsaw</div>
+                </div>
+            </div>
+            <div class="footer-down">All rights reserved. “World Photos”, Inc</div>
+        </footer>
+    </div>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
